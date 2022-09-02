@@ -1,0 +1,264 @@
+.product-item {
+  @include flex();
+  align-items: flex-end;
+  margin-bottom: 30px;
+
+  .pic {
+    flex: 0 0 45%;
+    border: 1px solid $color-border-2;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+
+    img {
+    }
+
+    .actions {
+      position: absolute;
+      right: -50px;
+      bottom: 10px;
+      @include transition(all, 0.5s);
+
+      .btn {
+        width: 35px;
+        height: 35px;
+        background: $color-secondary-1;
+        display: block;
+        text-align: center;
+        padding: 3px 0;
+        line-height: 24px;
+        @include border-radius(0);
+        @include transition(all, 0.3s);
+
+        .icon {
+          height: 18px;
+        }
+
+        &:not(:last-child) {
+          margin-bottom: 3px;
+        }
+
+        &:hover {
+          background: $color-secondary-2;
+        }
+      }
+    }
+  }
+
+  .details {
+    flex-grow: 1;
+    padding: 0 20px;
+    text-align: right;
+
+    .title {
+      font-size: 14px;
+      line-height: 22px;
+      padding-bottom: 12px;
+      margin: 0;
+      font-weight: bold;
+      position: relative;
+      margin-bottom: 10px;
+      color: #000;
+      @media(max-width: 575.98px) {
+        line-height: 18px;
+        font-size: 12px;
+      }
+
+
+      &:after {
+        content: '';
+        width: 30px;
+        height: 3px;
+        background: $color-secondary-1;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+    }
+
+    .category {
+      font-size: 12px;
+      color: $color-border-1;
+      margin: 0;
+      padding-bottom: 10px;
+      border-bottom: 1px solid $color-border-2;
+      @media (max-width: 575.98px) {
+        font-size: 10px;
+      }
+    }
+
+    .price {
+      font-size: 14px;
+      line-height: 30px;
+
+      .discount {
+        padding: 0 5px;
+        position: relative;
+        color: $color-border-1;
+        margin-left: 5px;
+
+        &:after {
+          content: '';
+          width: auto;
+          position: absolute;
+          right: 0;
+          left: 0;
+          top: 10px;
+          height: 1px;
+          background: $color-secondary-1;
+        }
+
+        @media (max-width: 575.98px) {
+          padding: 0;
+        }
+      }
+
+      .unit {
+        font-size: 12px;
+        color: $color-main-1;
+        font-weight: bold;
+      }
+      .sum-price{
+        white-space: nowrap;
+      }
+    }
+
+    .call{
+      font-size:13px;
+      color:$color-secondary-1;
+      font-weight: bold;
+      margin-top: 6px;
+    }
+    @media(max-width: 767.98px){
+      padding-right: 15px;
+      padding-left: 0;
+    }
+  }
+
+  .active-icon {
+    width: 30px !important;
+    height: auto;
+    position: absolute;
+    z-index: 3;
+    right: 5px;
+    bottom: 10px;
+
+    &.text {
+      font-size: 12px;
+      color: #53c70f;
+      font-weight: bold;
+      width: auto !important;
+      right: 40px;
+      display: inline-block;
+      opacity: 0;
+      background: rgba(255, 255, 255, .9);
+      line-height: 20px;
+      @include transition(all, .3s);
+      @media(max-width: 575.98px) {
+        right: 0;
+        left: 0;
+        padding-right: 40px;
+        height: 36px;
+        padding-top: 8px;
+        line-height: 13px;
+        opacity: 1;
+        z-index: 1;
+        font-size: 10px;
+        width: 100% !important;
+        overflow: hidden;
+        text-align: right;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+
+  .deactive-icon {
+    width: auto !important;
+    height: auto;
+    position: absolute;
+    z-index: 3;
+    right: 5px;
+    bottom: 10px;
+
+    &.text {
+      font-size: 12px;
+      color: red;
+      font-weight: bold;
+      opacity: 0;
+      background: rgba(255, 255, 255, .9);
+      line-height: 20px;
+      @include transition(all, .3s);
+    }
+  }
+
+  &:hover {
+    .pic {
+      .actions {
+        right: 10px;
+      }
+    }
+
+    .active-icon.text, .deactive-icon.text {
+      opacity: 1;
+    }
+  }
+
+  div[class^="counter-box"] {
+    padding: 0;
+    position: absolute;
+    bottom: -50px;
+    right: 60px;
+    z-index: 2;
+    width: 100px;
+    @include transition(all, 0.5s);
+
+    .count-group {
+      margin: 0;
+
+      .count-control {
+        margin: 0;
+        height: 36px;
+        line-height: 34px;
+        text-align: center;
+        color: $color-border-1;
+        border-width: 1px;
+        padding-left: 46px;
+        padding-right: 10px;
+      }
+
+      .count-increase, .count-decrease {
+        width: 40px;
+        left: 1px;
+        font-weight: bold;
+        font-size: 22px;
+        text-align: center;
+        line-height: 20px;
+        cursor: pointer;
+        @include transition(all, 0.3s);
+        color: #fff;
+        background: $color-main-1;
+        position: absolute;
+
+        &:hover {
+          background: $color-secondary-2;
+          color: #000;
+        }
+      }
+
+      .count-increase {
+        height: 17px;
+        top: 1px;
+      }
+
+      .count-decrease {
+        height: 16px;
+        top: 19px;
+        font-size: 20px;
+      }
+    }
+
+    &:not(.d-none) {
+      bottom: 2px;
+    }
+  }
+}

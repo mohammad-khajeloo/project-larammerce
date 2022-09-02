@@ -1,0 +1,95 @@
+.expert-item {
+  @include flex();
+
+  .pic {
+    overflow: hidden;
+    position: relative;
+    width: 35%;
+
+    img {
+      object-fit: cover;
+      height: 161px;
+    }
+
+    .actions {
+      position: absolute;
+      left: -50px;
+      bottom: 15px;
+      @include transition(all, 0.5s);
+
+      .btn {
+        width: 35px;
+        height: 35px;
+        background: $color-secondary-1;
+        display: block;
+        text-align: center;
+        padding: 3px 0;
+        @include border-radius(0);
+        @include transition(all, 0.3s);
+
+        .icon {
+          height: 18px;
+        }
+
+        &:not(:last-child) {
+          margin-bottom: 3px;
+        }
+
+        &:hover {
+          background: $color-secondary-2;
+        }
+      }
+    }
+  }
+
+  .details {
+    width: 64%;
+    margin-right: 7px;
+    padding: 15px;
+    background: $color-background-4;
+
+    .title {
+      font-size: 16px;
+      line-height: 24px;
+      position: relative;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+
+      &:after {
+        content: '';
+        width: 20px;
+        height: 3px;
+        background: $color-secondary-1;
+        position: absolute;
+        right: 0;
+        bottom: -3px;
+      }
+    }
+
+    .name {
+      font-size: 13px;
+      line-height: 24px;
+      border-bottom: 1px solid $color-border-2;
+      padding-bottom:5px;
+      margin-bottom:10px;
+    }
+
+    .expert-tel {
+      font-size: 13px;
+      line-height: 24px;
+
+      .tel-value {
+        float: left;
+        direction: ltr;
+      }
+    }
+  }
+
+  &:hover {
+    .pic {
+      .actions {
+        left: 15px;
+      }
+    }
+  }
+}

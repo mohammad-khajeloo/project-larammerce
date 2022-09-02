@@ -1,0 +1,63 @@
+.buy-guide {
+  ul {
+    li {
+      .title {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 15px 0;
+
+        &:before {
+          color: $color-secondary-1;
+          text-decoration: underline;
+          padding-left: 10px;
+          font-size: 25px;
+          vertical-align: middle;
+        }
+      }
+
+      .short-desc {
+        font-size: 14px;
+        color: $color-border-1;
+        margin-bottom:15px;
+      }
+
+      .desc {
+        font-size: 14px;
+        padding-right: 30px;
+        .blue-title {
+          font-weight: bold;
+          color: $color-border-3;
+          &:before {
+            content:'';
+            background: $color-main-1;
+            width: 7px;
+            display: inline-block;
+            height: 7px;
+            margin-left: 7px;
+            border-radius: 50%;
+          }
+        }
+        .guide-pic{
+          text-align: center;
+          img{
+            margin:10px auto 30px;
+            max-width:100%;
+            width:auto;
+          }
+        }
+      }
+
+      &:first-child .title:before {
+        content: '۱';
+      }
+
+      &:nth-child(2) .title:before {
+        content: '۲';
+      }
+
+      &:nth-child(3) .title:before {
+        content: '۳';
+      }
+    }
+  }
+}

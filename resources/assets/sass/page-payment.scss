@@ -1,0 +1,401 @@
+.payment {
+  padding: 15px;
+  @include border-radius(3px);
+  position: relative;
+  @media(max-width: 767.98px) {
+    padding: 0;
+  }
+
+  .section-title {
+    color: $color-main-1;
+    @media (max-width: 575.98px) {
+      margin-bottom: 15px;
+    }
+  }
+
+  .products-list-summery {
+    .product-list-header {
+      .col-item {
+        background-color: $color-background-4;
+        font-size: 14px;
+        text-align: center;
+        border: 1px solid $color-border-2;
+        border-bottom: 0;
+        line-height: 50px;
+
+        &:not(:first-child) {
+          border-right: 0;
+        }
+
+        @media(max-width: 575.98px) {
+          font-size: 12px !important;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+
+    .product-list-body-xxl {
+      position: relative;
+      margin-bottom: 30px;
+
+      .product-row {
+        margin: 0;
+
+        .col-item {
+          text-align: center;
+          border: 1px solid $color-border-2;
+          width: 100%;
+          font-size: 16px;
+          color: $color-background-1;
+          @include flex();
+          align-items: center;
+          padding: 15px;
+
+          img {
+            max-width: 60px;
+            margin: 0 auto;
+          }
+
+          &.product-name {
+            font-size: 14px;
+          }
+
+          &.percent {
+            justify-content: center;
+          }
+
+          &.quantity {
+            justify-content: center;
+
+            input {
+              width: 100%;
+              text-align: center;
+              border: 0;
+              font-size: 14px;
+              font-weight: normal;
+            }
+          }
+
+          &.unit-price {
+            justify-content: center;
+            align-items: center;
+
+            .before-discount {
+              padding-top: 15px;
+              font-size: 14px;
+              padding-left: 40px;
+
+              strike {
+                color: $color-secondary-1;
+              }
+
+              .digit {
+                color: $color-border-4;
+              }
+            }
+
+            .after-discount {
+              margin-top: 5px;
+
+              .price-data {
+                color: $color-border-1;
+              }
+
+              .list-price-text {
+                color: $color-main-1;
+                font-size: 13px;
+              }
+            }
+          }
+
+          .tax-price {
+            font-size: 13px;
+
+            .price-data {
+              color: $color-border-3;
+            }
+
+            .list-price-text {
+              color: $color-main-1;
+              font-size: 11px;
+            }
+          }
+
+          .sum-price {
+            .list-price-text {
+              color: $color-main-1;
+              font-size: 13px;
+              margin-right: 5px;
+            }
+          }
+
+          &:not(:first-child) {
+            border-right: 0;
+          }
+
+          @media(max-width: 767.98px) {
+            padding: 15px 5px;
+            &.hidden-sm {
+              display: none !important;
+            }
+          }
+          @media(max-width: 575.98px) {
+            font-size: 12px !important;
+          }
+        }
+
+        &:not(:first-child) {
+          margin-top: -1px;
+        }
+      }
+    }
+  }
+
+  .cart-sum-price {
+    color: $color-border-4;
+    margin-bottom: 30px;
+
+    .double-point {
+      color: $color-main-1;
+    }
+
+    .text {
+      float: left;
+      color: $color-main-1;
+      margin-right: 10px;
+      font-size: 12px;
+    }
+
+    .price-data {
+      float: left;
+    }
+
+    .sum-price-title {
+      border-bottom: 1px solid $color-border-2;
+      font-size: 14px;
+      font-weight: bold;
+      color: $color-background-1;
+      line-height: 50px;
+      margin-top: 30px;
+    }
+
+    .sum-price-discount {
+      border-top: 1px solid $color-border-2;
+      border-bottom: 1px solid $color-border-2;
+      @include flex();
+
+      span {
+        line-height: 70px;
+      }
+
+      .discount-form {
+        margin: 15px 0;
+        flex: 0 0 50%;
+        position: relative;
+
+        .form-control {
+          padding-left: 70px;
+        }
+
+        .btn.submit {
+          position: absolute;
+          left: 0;
+          top: 0;
+          background: $color-secondary-1;
+          color: #fff;
+          font-size: 14px;
+          font-weight: bold;
+        }
+
+        .danger-discount {
+          position: absolute;
+          margin: 0;
+          right: 0;
+          font-size: 10px;
+          color: red;
+          line-height: 14px;
+          bottom: -14px;
+        }
+
+        @media(max-width: 575.98px) {
+          margin-bottom: 0;
+          .form-control {
+            line-height: 33px;
+            padding-right: 10px;
+            font-size: 12px;
+          }
+          .btn.submit {
+            line-height: 33px;
+            padding: 0 10px;
+            font-size: 12px;
+          }
+        }
+      }
+
+      .discount-details {
+        flex: 0 0 50%;
+        padding-right: 20px;
+      }
+
+      @media(max-width: 575.98px) {
+        flex-wrap: wrap;
+        .discount-form, .discount-details {
+          flex-basis: 100%;
+        }
+        .discount-details {
+          padding: 0;
+        }
+      }
+    }
+
+    .sum-price-before-discount {
+      span {
+        line-height: 40px;
+
+        &.price-data {
+          font-size: 17px;
+        }
+      }
+    }
+
+    .sum-price-after-discount {
+      border-top: 1px solid $color-border-2;
+      font-weight: bold;
+      color: $color-secondary-1;
+      font-size: 16px;
+
+      span {
+        line-height: 50px;
+
+        &.price-data {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .sum-price-tax {
+      color: $mainColor3;
+      font-size: 14px;
+      margin: 20px 0;
+    }
+  }
+
+  .info {
+    margin-bottom: 60px;
+
+    .info-row {
+      @include flex();
+      justify-content: stretch;
+      border: 1px solid $color-border-2;
+      font-size: 14px;
+      color: $color-background-1;
+      line-height: 50px;
+      margin-bottom: -1px;
+
+      & > div {
+        padding: 0 15px;
+      }
+
+      .icon {
+        background: $color-background-5;
+        border-left: 1px solid $color-border-2;
+        width: 50px;
+        -ms-flex: 0 0 50px;
+        flex: 0 0 50px;
+        text-align: center;
+        font-size: 18px;
+
+        i {
+          color: $color-border-3;
+        }
+      }
+
+      strong {
+        color: $color-background-2;
+      }
+    }
+
+    @media(max-width: 575.98px) {
+      margin-bottom: 30px;
+      .info-row {
+        font-size: 12px;
+        line-height: 22px;
+      }
+    }
+  }
+
+  .payment-method-list {
+    .payment-row {
+      border: 1px solid $color-background-3;
+      padding: 10px 15px;
+      @include flex();
+      position: relative;
+      margin-bottom: -1px;
+      @media (max-width: 575.98px) {
+        font-size: 12px;
+        padding: 0;
+      }
+    }
+
+    @media(min-width: 576px) {
+      margin-bottom: 50px;
+    }
+  }
+
+  .btn-row {
+    padding: 15px;
+
+    .btn {
+      padding: 0 35px;
+      height: 46px;
+      background-color: #ffffff;
+      font-size: 14px;
+      line-height: 42px;
+      @media (max-width: 752px) {
+        width: 100%;
+      }
+
+      i {
+        @include transition(all, .5s);
+        vertical-align: middle;
+        font-size: 16px;
+      }
+    }
+
+    .back-basket-btn-div {
+      .back {
+        color: $color-border-3;
+        border: 2px solid $color-border-3;
+
+        i {
+          padding-left: 8px;
+        }
+
+        @media(max-width: 575.98px) {
+          width: 100%;
+        }
+      }
+    }
+
+    .submit-basket-btn-div {
+      text-align: left;
+
+      .submit {
+        border: 2px solid $color-secondary-1;
+        border-radius: 0;
+        color: #6ccde2;
+
+        i {
+          padding-right: 8px;
+        }
+      }
+    }
+
+    @media(max-width: 575.98px) {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+}

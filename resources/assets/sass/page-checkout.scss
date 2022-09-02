@@ -1,0 +1,173 @@
+.checkout {
+  .btn-download-pdf {
+    display: block;
+    background: $color-secondary-1;
+    color: #fff;
+    font-size: 14px;
+  }
+  .banks {
+    padding: 0;
+    display: block;
+    list-style: none;
+    text-align: right;
+    margin-bottom: 15px;
+    li {
+      margin-left: 10px;
+      border: 1px solid $color-border-2;
+      position: relative;
+      height: 80px;
+      display: inline-block;
+      width: 33%;
+      @include border-radius(0);
+      .radiobtn img {
+        height: 60px;
+        width: auto;
+        object-fit: contain;
+      }
+    }
+  }
+  .btn.submit {
+    border: 2px solid $color-secondary-1;
+    border-radius: 0;
+    color: $color-main-1;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .title-header {
+    background: $color-background-5;
+    border: 1px solid $color-background-3;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .shipping-status {
+    .row {
+      margin: 0;
+      .item {
+        border: 1px solid $color-background-3;
+        padding: 15px;
+        font-size: 12px;
+        float: none;
+        text-align: center;
+        &:first-child {
+          text-align: right;
+        }
+        span {
+          color: $color-border-3;
+          font-size: 12px;
+          &.price-data {
+            font-size: 14px;
+            color: $color-secondary-1;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+    @media(max-width: 991.98px){
+      margin-top:15px;
+    }
+  }
+  .payment-log {
+    text-align: center;
+    margin-bottom:30px;
+    .payment-log-header {
+      background: $color-background-5;
+      border: 1px solid $color-background-3;
+      @media(min-width: 992px) {
+        @include flex();
+        -ms-flex-pack: stretch;
+        justify-content: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+      }
+      .col {
+        height: 50px;
+        line-height: 20px;
+        text-align: center;
+        font-size: 14px;
+        @include flex();
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding: 0 10px;
+        &:not(:last-child) {
+          border-left: 1px solid $color-background-3;
+        }
+      }
+    }
+    .payment-log-row {
+      border: 1px solid $color-background-3;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: stretch;
+      justify-content: stretch;
+      -ms-flex-align: stretch;
+      align-items: stretch;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      .col {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 50px;
+        padding: 0 10px;
+        @media (max-width: 1999.98px) and (min-width: 992px) {
+          font-size: 12px;
+          padding: 0;
+        }
+        &:not(:last-child) {
+          border-left: 1px solid $color-background-3;
+        }
+      }
+    }
+  }
+  .goods {
+    margin-bottom:30px;
+    text-align: center;
+    thead {
+      width: 100%;
+      text-align: center;
+      background: $color-background-5;
+      td {
+        height: 45px;
+        line-height: 37px;
+        padding: 5px 10px;
+        font-weight: 500;
+      }
+    }
+    .goods-item {
+      td {
+        line-height: 50px;
+      }
+      .goods-title {
+        text-align: right;
+        line-height: 35px;
+        white-space: nowrap;
+        a {
+          color: $color-background-2;
+          h5 {
+            margin: 0;
+            font-size: 14px;
+          }
+          .motto {
+            font-size: 12px;
+            text-align: right;
+            color: $color-border-4;
+          }
+        }
+      }
+    }
+  }
+  .status-0, .status-4, .status-5 {
+    color: #df5a42;
+  }
+  .status-1, .status-6 {
+    color: #efbc57;
+  }
+  .status-2 {
+    color: #3c763d;
+  }
+}

@@ -1,0 +1,113 @@
+.profile {
+  .row {
+    margin: 0;
+  }
+
+  .item {
+    font-size: 14px;
+    line-height: 50px;
+
+    .title {
+      font-weight: bold;
+      margin-left: 10px;
+    }
+  }
+
+  .office-location {
+    @include flex();
+    justify-content: stretch;
+
+    .col {
+      flex-grow: 1;
+      width: 50%;
+      padding: 0;
+    }
+
+    .fstElement {
+      border-color: $color-border-3;
+
+      .fstToggleBtn {
+        padding: 0 15px;
+        line-height: 48px;
+        border-radius: 0;
+        font-size: 14px;
+        position: relative;
+        color: $color-main-1;
+
+        &:after {
+          border-top-color: $color-main-1;
+        }
+      }
+
+      &.fstActive {
+        border-color: $color-secondary-1;
+
+        .fstToggleBtn {
+          &:after {
+            border-top-color: $color-secondary-1;
+          }
+        }
+      }
+    }
+  }
+
+  .change-pass, .edit-info, .add-address, .submit {
+    border: 1px solid $color-secondary-1;
+    @include border-radius(0);
+    color: $color-main-1;
+    background-color: #ffffff;
+    padding: 0 35px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: bold;
+    margin: 30px 0;
+
+    &:focus {
+      box-shadow: none;
+    }
+
+    @media(max-width: 575.98px) {
+      margin: 10px 0;
+    }
+  }
+
+  .address {
+    padding: 0 15px;
+    margin-bottom: 15px;
+
+    .address-header {
+      @include flex();
+      justify-content: space-between;
+      border-bottom: 1px solid $color-secondary-1;
+
+      .address-title {
+        font-size: 14px;
+        font-weight: bold;
+        color: $color-secondary-2;
+        line-height: 40px;
+      }
+
+      .address-button {
+        font-size: 20px;
+        padding: 0 10px;
+      }
+    }
+
+    .address-body {
+      .address-content {
+        line-height: 40px;
+        font-size: 14px;
+
+        span:not(.numerical-data) {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .birth-date {
+    @include flex();
+    justify-content: stretch;
+  }
+}

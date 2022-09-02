@@ -1,0 +1,183 @@
+.contact-page {
+  padding: 40px 0 0;
+  .main-content {
+    .forms-collection {
+      position: relative;
+      margin-top: 50px;
+      background-color: $white;
+      &:before {
+        content: '';
+        width: 250px;
+        height: 114px;
+        position: absolute;
+        top: -28px;
+        right: -28px;
+        z-index: -1;
+        background-image: url("/HCMS-assets/img/dot.svg");
+        background-repeat: repeat;
+        background-size: 12px;
+      }
+      .btn-group {
+        .submit-form-about {
+          color: $white;
+          background-color: $color-secondary-1;
+          padding: 15px 30px;
+          cursor: pointer;
+          border: none;
+
+          &:focus {
+            border: none;
+            outline: none;
+          }
+        }
+        @media(max-width: 575.98px){
+          display: block;
+          text-align: center;
+          .submit-form-about {
+            padding-top:10px;
+            padding-bottom:10px;
+          }
+        }
+      }
+    }
+    .information-collection {
+      margin-top: 50px;
+      .information-item {
+        line-height: 62px;
+        margin-bottom: 5px;
+        font-size: 14px;
+        .icon {
+          display: inline-block;
+          max-height: 25px;
+          width: 40px;
+          @media(max-width: 575.98px){
+            width: 25px;
+          }
+        }
+        i, .icon {
+          margin: 0 0 0 5px;
+        }
+        &:not(:last-child) {
+          border-bottom: 1px solid $color-border-3;
+        }
+      }
+    }
+    .business-time {
+      margin-top: 30px;
+      .section-title {
+        margin-bottom: 0;
+      }
+      .time-text {
+        line-height: 62px;
+        margin-bottom: 25px;
+        font-size: 14px;
+        border-bottom: 1px solid $color-border-3;
+      }
+    }
+    .socials {
+      @include flex();
+      justify-content: flex-end;
+      margin-top: -60px;
+      li {
+        a {
+          height: 40px;
+          width: 40px;
+          text-align: center;
+          border: 1px solid $color-border-3;
+          color: $color-main-1;
+          display: block;
+          font-size: 22px;
+          margin-right: 10px;
+          @include transition(all, 0.2s);
+          i {
+            line-height: 40px;
+          }
+          &:hover {
+            border-color: $color-main-1;
+          }
+        }
+      }
+    }
+    @media(max-width: 767.98px) {
+      .row {
+        & > div:first-child{
+          order: 2;
+        }
+        & > div:nth-child(2) {
+          order: 1;
+          margin-bottom:30px;
+        }
+      }
+      .information-collection{
+        margin-top:0;
+        .information-item{
+          line-height: 45px;
+        }
+      }
+      .business-time {
+        .time-text {
+          line-height: 45px;
+          margin-bottom: 15px;
+        }
+      }
+      .forms-collection {
+        margin-top: 0;
+        &:before {
+          top: -8px;
+        }
+      }
+    }
+    @media(max-width: 575.98px) {
+      .information-collection{
+        .information-item{
+          line-height: 30px;
+          padding-bottom:5px;
+        }
+      }
+      .socials{
+        li a{
+          width:30px;
+          height: 30px;
+          margin-top:5px;
+          font-size:16px;
+          i{
+            line-height: 30px;
+          }
+        }
+      }
+    }
+  }
+  .map-content {
+    background-color: $color-background-4;
+    padding: 90px 0;
+    margin-top: 30px;
+    overflow: hidden;
+    .cadr-map {
+      position: relative;
+      width: 100%;
+      &:before {
+        content: '';
+        width: 250px;
+        height: 300px;
+        position: absolute;
+        top: -45px;
+        left: -30px;
+        background-image: url("/HCMS-assets/img/dot.svg");
+        background-repeat: repeat;
+        background-size: 12px;
+      }
+      iframe {
+        width: 100%;
+        position: relative;
+        @media(max-width: 575.98px){
+          height:300px;
+        }
+      }
+    }
+  }
+  @media(max-width:767.98px){
+    .map-content{
+      padding:15px 0;
+    }
+  }
+}

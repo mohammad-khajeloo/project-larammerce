@@ -1,0 +1,16 @@
+.error {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  h1 {
+    color: $color-secondary-1;
+    font-size: 180px;
+    font-weight: bold;
+    line-height: 180px;
+  }
+  h2 {
+    color: $color-main-1;
+    font-size: 30px;
+    margin-bottom:30px;
+  }
+}
