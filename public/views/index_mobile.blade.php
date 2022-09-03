@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-lg-9 col-md-12 col-sm-12">
                 <div class="main-slider swiper-container">
-                    <div class="swiper-wrapper" hct-gallery="index_slider"
+                    <div class="swiper-wrapper" hct-gallery="index_slider" hct-has-mobile
                          hct-title="اسلایدر صفحه اول" hct-max-entry="3">
 
                         <ul class="hidden-xl hidden-lg hidden-md hidden-sm hidden-xs hidden-xxs" hct-gallery-fields>
