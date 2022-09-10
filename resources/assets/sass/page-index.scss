@@ -86,11 +86,11 @@
   }
 
   @media(max-width: 575.98px) {
-    height: 400px;
+    height: auto;
     .swiper-slide {
       img {
-        height: 100%;
-        width: auto;
+        width: 100%;
+        height: auto;
         max-width: inherit;
       }
     }
@@ -170,7 +170,8 @@
 
   .main-featured-product {
     position: relative;
-    padding-top: 58px;
+    border:1px solid $color-background-5;
+    /*padding-top: 58px;
     padding-right: 45px;
 
     &:before {
@@ -194,7 +195,7 @@
       top: 0;
       right: 0;
       z-index: -2;
-    }
+    }*/
 
     .featured-product-title {
       font-size: 14px;
