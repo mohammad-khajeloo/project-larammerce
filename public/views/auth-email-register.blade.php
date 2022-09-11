@@ -15,7 +15,7 @@
 
 @section('main_content')
 
-    <script>window.currentPage = "mobile-register"</script>
+    <script>window.currentPage = "auth-register"</script>
 
     <div class="container">
     <div class="register">
