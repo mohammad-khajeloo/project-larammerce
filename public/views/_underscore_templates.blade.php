@@ -31,7 +31,6 @@
                     <a href="<%- product.url %>" target="_blank" title="<%- product.title %>">
                         <h3 class="product-name"><%- product.title %></h3>
                     </a>
-                    <% if(eval(JSON.parse(product.attributes_content))) { %>
                     <% $(eval(product.extra_properties)).each(function(i){ %>
                     <% if(i < 4) { %>
                     <section class="unit hidden-xs">
@@ -40,7 +39,6 @@
                     </section>
                     <% } %>
                     <% }) %>
-                    <% } %>
                     <div class="hidden-xl hidden-lg hidden-md hidden-sm">
                         <% if(product.latest_price !== 0){ %>
                         <div sum-price-product="<%- product.latest_price %>">
