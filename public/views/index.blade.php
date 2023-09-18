@@ -1,245 +1,389 @@
 @extends('_base')
 
 @section('title')
-    فروشگاه اینترنتی صنعت تاسیسات و پایپینگ، شیرآلات و اتصالات صنعتی
+   صفحه اصلی
 @endsection
 
 @section('meta_tags')
     @include('_meta_tags', ['obj' => $web_page])
     <meta property="og:type" content="website">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+            integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+            crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 @endsection
 
 @section('header_class')
+
 @endsection
 
 
 @section('main_content')
-    <script>window.currentPage = "index"</script>
 
-    <section class="container-fluid">
-        <div class="row">
-            <div class="col-lg-9 col-md-12 col-sm-12">
-                <div class="main-slider swiper-container">
-                    <div class="swiper-wrapper" hct-gallery="index_slider" hct-has-mobile
-                         hct-title="اسلایدر صفحه اول" hct-max-entry="3">
+<header>
+    <!-- navbar -->
+    <div class="navbar">
+        <ul>
 
-                        <ul class="hidden-xl hidden-lg hidden-md hidden-sm hidden-xs hidden-xxs" hct-gallery-fields>
-                            <li hct-gallery-field="main_title" hct-title="عنوان"></li>
-                            <li hct-gallery-field="link_addr" hct-title="آدرس لینک"></li>
-                            <li hct-gallery-field="main_brief" hct-title="متن کوتاه"></li>
-                            <li hct-gallery-field="description" hct-title="متن بلند"></li>
-                        </ul>
+            <li class="li-active"><a class="li-active" href="#">صفحه اصلی</a></li>
+            <li><a href="#">لورم ایپسوم</a></li>
+            <li><a href="#"> لورم ایپسوم</a></li>
+            <li><a href="#">لورم ایپسوم</a></li>
+            <li><a href="#">لورم ایپسوم</a></li>
+        </ul>
+    <div class="header-right">
+        <p>Lorem ipsum</p>
+            <h1>لورم</h1>
+    <div class="type-automatic">
+        <h1>لورم ایپسوم</h1>
+        </div>
+    </div>
+</div>
 
-                        <div class="swiper-slide" hct-gallery-item>
-                            <img hct-attr-src="{%- prop:image_path %}"
-                                 alt="{%- ex-prop:main_title %}" class="img-fluid"/>
+</header>
+<body class="body-one">
+    <div class="background-body-one">
+        <hr class="rotate-hr-one">
+        <hr class="rotate-hr-two">
+        <hr class="rotate-hr-Three">
+    </div>
+    <main class="slider-index">
 
+        <div class="container-slider">
 
-                            <a href="#" hct-attr-href="{%- ex-prop:link_addr %}" class="caption-wrapper"
-                               title="{%- ex-prop:main_brief %}">
-                                <div class="caption">
-                                    <h1 class="title">{%- ex-prop:main_brief %}</h1>
-                                    <div class="desc hidden-sm hidden-xs">{%- ex-prop:description %}</div>
-                                </div>
+            <input type="radio" id="i2" name="images" checked/>
+            <input type="radio" id="i3" name="images" />
+
+            <div class="slide_img" id="two">
+                <img src="../HCMS-assets/img/large-3-1024x480.jpg" >
+            </div>
+
+            <div class="slide_img" id="three">
+                <img src="../HCMS-assets/img/large-2-1024x480.jpg">
+            </div>
+            <div id="nav_slide">
+
+                <label for="i2" class="dots" id="dot2"></label>
+                <label for="i3" class="dots" id="dot3"></label>
+
+            </div>
+            <div id="nav_slide-2">
+
+                <label for="i2" class="dots" id="dot2"><i  class='fas'>&#xf104;</i></label>
+                <label for="i3" class="dots" id="dot3"><i  class='fas'>&#xf105;</i></label>
+
+            </div>
+
+        </div>
+
+    </main>
+    <section class="text-collapsible">
+        <ul class="m-d expand-list">
+            <li data-md-content="200">
+                <input type="checkbox" checked class="tab" id="tab1" tabindex="0" />
+
+                <div class="content">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                    از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه
+                    و مجله در ستون و سطرآنچنان که لازم است
+                    و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود
+                    ابزارهای کاربردی می باشد.
+
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                    از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه
+                    و مجله در ستون و سطرآنچنان که لازم است
+                    و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود
+                    ابزارهای کاربردی می باشد.
+
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+                    از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه
+                    و مجله در ستون و سطرآنچنان که لازم است
+                    و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود
+                    ابزارهای کاربردی می باشد.
+                </div>
+                <label name="tab" for="tab1" tabindex="-1" class="tab_lab" role="tab">مشاهده همه</label>
+            </li>
+        </ul>
+    </section>
+</body>
+
+<body class="body-two">
+    <section class="slider-2">
+        <div class="section1">
+            <div class="img-slider">
+                <img src="../HCMS-assets/img/pas%20zamine.jpeg" alt="" class="img">
+                <img src="../HCMS-assets/img/a451646b0e0dec1e27dd95404d8a18b6dbd0f3e9_1609679760.jpg" alt="" class="img">
+                <img src="../HCMS-assets/img/587218241a98913a04470f6c242715514dae1479_1671296626.jpg" alt="" class="img">
+                <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img">
+                <img src="../HCMS-assets/img/large-3-1024x480.jpg" alt="" class="img">
+            </div>
+        </div>
+    </section>
+    <section class="container-two">
+         <div class="container-two">
+             <div class="heading heading-center mb-3">
+                 <h2 class="title-container">lorem top</h2>
+                    <ul class="nav nav-pills nav-border-anim justify-content-center" role="tablist">
+                       <li class="nav-item">
+                             <a class="nav-link active" id="top-all-link" data-toggle="tab" href="#top-all-tab"
+                                role="tab" aria-controls="top-all-tab" aria-selected="true">tab1
+                             </a>
+                       </li>
+                        <li class="nav-item">
+                             <a class="nav-link" id="top-fur-link" data-toggle="tab" href="#top-fur-tab"
+                                role="tab" aria-controls="top-fur-tab" aria-selected="false">tab2
+                             </a>
+                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="top-decor-link" data-toggle="tab" href="#top-decor-tab"
+                               role="tab" aria-controls="top-decor-tab" aria-selected="false">tab3
                             </a>
-                        </div>
-                    </div>
-
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link" id="top-light-link" data-toggle="tab" href="#top-light-tab"
+                                role="tab" aria-controls="top-light-tab" aria-selected="false">tab4
+                             </a>
+                        </li>
+                     </ul>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-12 col-sm-12">
-                <div class="main-brands">
-                    <div class="section-title">برندها</div>
-                    <div hct-gallery="brands_gallery" hct-title="گالری برندها" hct-max-entry="12">
-
-                        <ul hct-gallery-fields>
-                            <li hct-gallery-field="main_title" hct-title="عنوان"></li>
-                            <li hct-gallery-field="link_addr" hct-title="آدرس لینک"></li>
-                        </ul>
-
-                        <ul class="brands-list">
-                            <li hct-gallery-item>
-                                <a href="#" hct-attr-href="{%- ex-prop:link_addr %}" title="{%- ex-prop:main_title %}">
-                                    <img hct-attr-src="{%- prop:image_path %}"
-                                         alt="{%- ex-prop:main_title %}" class="img-fluid"/>
-                                </a>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="container-fluid">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                <div class="main-featured-product-container">
-                    <div class="section-title">پیشنهاد ویژه</div>
-
-                    <div class="main-featured-product swiper-container">
-                        <div class="swiper-wrapper" hct-gallery="featured_product_slider"
-                             hct-title="اسلایدر پیشنهاد ویژه" hct-max-entry="10">
-
-                            <ul class="hidden-xl hidden-lg hidden-md hidden-sm hidden-xs hidden-xxs" hct-gallery-fields>
-                                <li hct-gallery-field="featured_title" hct-title="عنوان"></li>
-                                <li hct-gallery-field="featured_link" hct-title="آدرس لینک"></li>
-                            </ul>
-
-                            <div class="swiper-slide" hct-gallery-item>
-                                <img hct-attr-src="{%- prop:image_path %}" alt="{%- ex-prop:featured_title %}"
-                                     class="img-fluid"/>
-                                <a href="#" hct-attr-href="{%- ex-prop:featured_link %}" class="absolute-link"
-                                   title="{%- ex-prop:featured_title %}"></a>
-                            </div>
-                        </div>
-
-                        <div class="swiper-pagination"></div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-lg-8 col-md-6 col-sm-12 col-12">
-                <div class="main-best-products-container">
-                    <div class="section-title">پرفروش‌ترین محصولات</div>
-                    <div class="main-best-products row">
-                        @foreach(custom_query_products("verySale") as $item)
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                                @include("_product-single-related-item", compact("item"))
-                            </div>
-                        @endforeach
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="main-customer-club" hct-gallery="index_banner1" hct-title='آرشیو بنر اول سایت' hct-max-entry="1"
-             hct-random-select>
-        <ul class="hidden-xl hidden-lg hidden-md hidden-sm hidden-xs hidden-xxs" hct-gallery-fields>
-            <li hct-gallery-field="banner_title" hct-title="عنوان بنر"></li>
-            <li hct-gallery-field="banner_link" hct-title="آدرس لینک"></li>
-        </ul>
-        <div class="pic" hct-gallery-item
-             style="background:url('{%- prop:image_path %}') no-repeat top right /cover;"></div>
-        <div class="info-box">
-            <div class="section-title" hct-content="motto" hct-content-type="text" hct-title='شعار'></div>
-            <div class="desc" hct-content="index-description" hct-content-type="text" hct-title='توضیح مختصر صفحه اصلی'>
-            </div>
-            <div class="section-title">ویژگی‌های ما</div>
-            <ul class="club-features">
-                <li>
-                    <img src="" data-src="/HCMS-assets/img/club/quality.svg" class="icon" alt="تضمین کیفیت">
-                    <div class="text">تضمین کیفیت</div>
-                </li>
-                <li>
-                    <img src="" data-src="/HCMS-assets/img/club/delivery.svg" class="icon" alt="تحویل اکسپرس">
-                    <div class="text">تحویل اکسپرس</div>
-                </li>
-                <li>
-                    <img src="" data-src="/HCMS-assets/img/club/original.svg" class="icon" alt="ضمانت اصالت کالا">
-                    <div class="text">ضمانت اصالت کالا</div>
-                </li>
-                <li>
-                    <img src="" data-src="/HCMS-assets/img/club/support.svg" class="icon" alt="پشتیبانی سریع">
-                    <div class="text">پشتیبانی سریع</div>
-                </li>
-                <li>
-                    <img src="" data-src="/HCMS-assets/img/club/certificate.svg" class="icon"
-                         alt="بازرسی و ارائه گواهینامه">
-                    <div class="text">بازرسی و ارائه گواهینامه</div>
-                </li>
-                <li>
-                    <img src="" data-src="/HCMS-assets/img/club/packing.svg" class="icon" alt="بسته‌بندی مناسب">
-                    <div class="text">بسته‌بندی مناسب</div>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-
-    <?php $product_root = get_product_root();
-    $product_categories = $product_root->directories;
-    $counter = count($product_categories)?>
-
-    @if($product_categories != null)
-        <?php $first_counter = 1;?>
-        @foreach($product_categories as $product_category)
-            <section class="latest-products">
-                <div class="container-fluid">
-                    <a href="#">
-                        <h2 class="section-title">{{$product_category->title}}</h2>
-                    </a>
-                    <div class="swiper-container">
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-wrapper">
-                            @foreach(get_directory_product_leaves($product_category,10, false) as $item)
-                                @include("_product-single-related-item", compact("item"))
-                            @endforeach
+         </div>
+        <div class="tab-content">
+            <div class="tab-pane p-0 fade show active" id="top-all-tab" role="tabpanel" aria-labelledby="top-all-link">
+                <div class="products">
+                    <div class="row justify-content-center">
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
+                           <h1>lorem1</h1>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            @if($first_counter < $counter)
-                <div class="hr"></div>
-            @endif
-
-            <?php $first_counter++;?>
-        @endforeach
-    @endif
-
-
-    <section class="main-invoice" hct-gallery="index_banner2" hct-title='آرشیو بنر دوم سایت' hct-max-entry="1"
-             hct-random-select>
-        <ul class="hidden-xl hidden-lg hidden-md hidden-sm hidden-xs hidden-xxs" hct-gallery-fields>
-            <li hct-gallery-field="banner_title" hct-title="عنوان بنر"></li>
-            <li hct-gallery-field="banner_link" hct-title="آدرس لینک"></li>
-        </ul>
-        <div class="invoice-background-pic" hct-gallery-item style="background-image: url('{%- prop:image_path %}')">
-            <div class="invoice-info">
-                <div class="title">صدور پیش‌فاکتور</div>
-                <div class="motto">سریع و آنلاین</div>
-                <div class="desc">شما می توانید به صورت آنلاین پیش فاکتور محصولات مورد نیاز خود را در سریع ترین زمان
-                    ممکن و به راحتی دریافت کنید.
-                </div>
-                <a href="/products" class="btn" title="صدور پیش‌فاکتور">صدور پیش‌فاکتور</a>
             </div>
-        </div>
-    </section>
-
-    <section class="main-latest-articles">
-        <div class="container-fluid">
-            <a href="#">
-                <div class="section-title">آخرین مقالات</div>
-            </a>
-            <div class="row">
-                @foreach(get_latest_blog('blog', 4) as $blog)
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                        <div class="article-item">
-                            <div class="pic">
-                                <a href="{{$blog->getFrontUrl()}}" title="{{ $blog->title }}">
-                                    <img src="" data-src="{{ImageService::getImage($blog, 'main')}}"
-                                         alt="{{ $blog->title }}" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="details">
-                                <a href="{{$blog->getFrontUrl()}}" title="{{ $blog->title }}">
-                                    <h5 class="title">{{ $blog->title }}</h5>
-                                </a>
-                                <div class="date">{{ \App\Utils\Common\TimeService::getCustomFormatFrom($blog->created_at, "j F y") }}</div>
-                                <div class="desc">{{ strip_tags($blog->short_content) }}</div>
-                            </div>
+            <div class="tab-pane p-0 fade" id="top-fur-tab" role="tabpanel" aria-labelledby="top-fur-link">
+                <div class="products">
+                    <div class="row justify-content-center">
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
+                        <h1>
+                            lorem2
+                        </h1>
                         </div>
                     </div>
-                @endforeach
-
-
+                </div>
             </div>
         </div>
+
+            <div class="tab-pane p-0 fade" id="top-decor-tab" role="tabpanel" aria-labelledby="top-decor-link">
+                <div class="products">
+                    <div class="row justify-content-center">
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
+                            <h1>lorem3</h1>
+                        </div>
+                    </div>
+            <div class="tab-pane p-0 fade" id="top-light-tab" role="tabpanel" aria-labelledby="top-light-link">
+                <div class="products">
+                    <div class="row justify-content-center">
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
+                            <h1>lorem4</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+    <section class="working-area" style="background-image: url(/../HCMS-assets/img/working-bg.jpg);">
+        <div class="all-box">
+            <div class="box">
+                <h1>متن اول</h1>
+            </div>
+            <div class="box">
+                <h1>متن دوم </h1>
+            </div>
+            <div class="box">
+                <h1>متن سوم</h1>
+            </div>
+            <div class="box">
+                <h1> چهارم</h1>
+            </div>
+            <div class="box">
+                <h1>متن پنجم</h1>
+            </div>
+            <div class="box">
+                <h1>متن ششم</h1>
+            </div>
+
+        </div>
     </section>
+
+    <div class="foreach-nomber">
+        <hr>
+        <div class="counter-container">
+            <div class="counter" data-target="12000"></div>
+            <br>
+            <span>Instagram </span>
+        </div>
+        <hr class="rotate">
+        <div class="counter-container">
+            <div class="counter" data-target="5000"></div>
+            <br>
+            <span>Instagram </span>
+        </div>
+        <hr class="rotate">
+        <div class="counter-container">
+            <div class="counter" data-target="7500"></div>
+            <br>
+            <span>Instagram </span>
+        </div>
+        <hr class="rotate">
+        <div class="counter-container">
+            <div class="counter" data-target="7500"></div>
+            <br>
+            <span>Instagram </span>
+        </div>
+        <hr class="rotate">
+        <div class="counter-container">
+            <div class="counter" data-target="7500"></div>
+            <br>
+            <span>Instagram</span>
+        </div>
+
+        <hr>
+    </div>
+
+
+    <div class="about-us">
+
+        <div class="about-text-right">
+
+            <h1>درباره ما </h1>
+            <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون.
+
+            </p>
+            <img src="../HCMS-assets/img/sign.gif" alt="slam">
+        </div>
+
+        <div class="about-text-center">
+            <h1>درباره ما </h1>
+            <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا
+            </p>
+        </div>
+        <div class="about-text-left">
+            <h1>درباره ما </h1>
+            <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا
+
+            </p>
+        </div>
+        <hr>
+    </div>
+
+    <div class="contain">
+
+        <div class="wrapper">
+
+            <div class="form">
+
+                <form id="submit-form" action="">
+                    <p>
+                        <label for="name">نام</label>
+                        <input type="text"  name="name" id="name_input" required>
+                    </p>
+                    <p>
+                        <label for="name">ایمیل</label>
+                        <input type="text"  name="name" id="name_input" required>
+                    </p>
+                    <p class="full-width">
+                        <label for="name">شماره تماس</label>
+                        <input type="text"  name="name" id="name_input" required>
+                    </p>
+
+                    <p class="full-width">
+                        <label for="name">پیام</label>
+                        <textarea  minlength="40" id="message" cols="40" rows="2"  required></textarea>
+
+                    </p>
+
+
+
+                    <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button thar-three">Register</a> </div>
+                </form>
+            </div>
+
+            <div class="contacts contact-wrapper">
+                <h1 class="form-headline">تماس با ما</h1>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</li>
+
+                    <li class="email-info">ادرس:......................................05, Martin Street </li>
+                    <li class="email-info">ایمیل:......................................mohammad.khajeloo.37@gmail.com </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button thar-three">Register</a>
+    </div>
+
+    <div class="footer-links">
+        <div class="a-links">
+            <a class="select-links"  href="#">صفحه اصلی  </a>
+
+            <a  class="select-links"  href="#" >تماس باما </a>
+
+            <a  class="select-links"  href="#" >درباره ما  </a>
+
+            <a  class="select-links"  href="#">سوالات متداول</a>
+            <div class="footer-right">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+        </div>
+
+        <hr>
+        <p class="txt-footer">طراحی وب محمد مهدی خواجه لو</p>
+    </div>
+</body>
+
+<script>
+    const acc_btns = document.querySelectorAll(".accordion-header");
+    const acc_contents = document.querySelectorAll(".accordion-body");
+
+    acc_btns.forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+            acc_contents.forEach((acc) => {
+                if (
+                    e.target.nextElementSibling !== acc &&
+                    acc.classList.contains("active")
+                ) {
+                    acc.classList.remove("active");
+                    acc_btns.forEach((btn) => btn.classList.remove("active"));
+                }
+            });
+
+            const panel = btn.nextElementSibling;
+            panel.classList.toggle("active");
+            btn.classList.toggle("active");
+        });
+    });
+
+    window.onclick = (e) => {
+        if (!e.target.matches(".accordion-header")) {
+            acc_btns.forEach((btn) => btn.classList.remove("active"));
+            acc_contents.forEach((acc) => acc.classList.remove("active"));
+        }
+    };
+</script>
 
 @endsection

@@ -2143,3 +2143,28 @@ var requirejs, require, define;
     //Set up with config info.
     req(cfg);
 }(this, (typeof setTimeout === 'undefined' ? undefined : setTimeout)));
+const counters = document.querySelectorAll(".counter");
+
+counters.forEach((counter) => {
+    counter.innerText = "0";
+    const updateCounter = () => {
+        const target = +counter.getAttribute("data-target");
+        const count = +counter.innerText;
+        const increment = target / 200;
+        if (count < target) {
+            counter.innerText = `${Math.ceil(count + increment)}`;
+            setTimeout(updateCounter, 1);
+        } else counter.innerText = target;
+    };
+    updateCounter();
+});
+
+const close = document.querySelector(".close");
+const open = document.querySelector(".ham");
+const menu = document.querySelector(".menu");
+close.addEventListener("click", () => {
+    menu.style.visibility = "hidden";
+});
+open.addEventListener("click", () => {
+    menu.style.visibility = "visible";
+});
