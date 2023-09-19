@@ -126,77 +126,11 @@
             </div>
         </div>
     </section>
-    <section class="container-two">
-         <div class="container-two">
-             <div class="heading heading-center mb-3">
-                 <h2 class="title-container">lorem top</h2>
-                    <ul class="nav nav-pills nav-border-anim justify-content-center" role="tablist">
-                       <li class="nav-item">
-                             <a class="nav-link active" id="top-all-link" data-toggle="tab" href="#top-all-tab"
-                                role="tab" aria-controls="top-all-tab" aria-selected="true">tab1
-                             </a>
-                       </li>
-                        <li class="nav-item">
-                             <a class="nav-link" id="top-fur-link" data-toggle="tab" href="#top-fur-tab"
-                                role="tab" aria-controls="top-fur-tab" aria-selected="false">tab2
-                             </a>
-                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="top-decor-link" data-toggle="tab" href="#top-decor-tab"
-                               role="tab" aria-controls="top-decor-tab" aria-selected="false">tab3
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                             <a class="nav-link" id="top-light-link" data-toggle="tab" href="#top-light-tab"
-                                role="tab" aria-controls="top-light-tab" aria-selected="false">tab4
-                             </a>
-                        </li>
-                     </ul>
-                </div>
-         </div>
-        <div class="tab-content">
-            <div class="tab-pane p-0 fade show active" id="top-all-tab" role="tabpanel" aria-labelledby="top-all-link">
-                <div class="products">
-                    <div class="row justify-content-center">
-                        <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
-                           <h1>lorem1</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane p-0 fade" id="top-fur-tab" role="tabpanel" aria-labelledby="top-fur-link">
-                <div class="products">
-                    <div class="row justify-content-center">
-                        <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
-                        <h1>
-                            lorem2
-                        </h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-            <div class="tab-pane p-0 fade" id="top-decor-tab" role="tabpanel" aria-labelledby="top-decor-link">
-                <div class="products">
-                    <div class="row justify-content-center">
-                        <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
-                            <h1>lorem3</h1>
-                        </div>
-                    </div>
-            <div class="tab-pane p-0 fade" id="top-light-tab" role="tabpanel" aria-labelledby="top-light-link">
-                <div class="products">
-                    <div class="row justify-content-center">
-                        <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
-                            <h1>lorem4</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-</section>
+
+
+
     <section class="working-area" style="background-image: url(/../HCMS-assets/img/working-bg.jpg);">
         <div class="all-box">
             <div class="box">
@@ -220,7 +154,80 @@
 
         </div>
     </section>
+    <section class="container-two">
+        <div class="container-two">
+            <div class="heading heading-center mb-3">
+                <h2 class="title-container">نمونه کار ها</h2>
+                <hr class="mini-hr">
+                <p class="title-p-container">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, consectetur cumque dolorum, eius
+</p>
+                <ul class="nav nav-pills nav-border-anim justify-content-center" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="top-all-link" data-toggle="tab" href="#top-all-tab"
+                           role="tab" aria-controls="top-all-tab" aria-selected="true">همه
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="top-fur-link" data-toggle="tab" href="#top-fur-tab"
+                           role="tab" aria-controls="top-fur-tab" aria-selected="false">کسب کار
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="top-decor-link" data-toggle="tab" href="#top-decor-tab"
+                           role="tab" aria-controls="top-decor-tab" aria-selected="false">شهرها
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="top-light-link" data-toggle="tab" href="#top-light-tab"
+                           role="tab" aria-controls="top-light-tab" aria-selected="false">tab4
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="tab-content">
+            <div class="tab-pane p-0 fade show active" id="top-all-tab" role="tabpanel" aria-labelledby="top-all-link">
+                <div class="products">
+                    <div class="row justify-content-center">
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
+                            <h1>lorem1</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane p-0 fade" id="top-fur-tab" role="tabpanel" aria-labelledby="top-fur-link">
+                <div class="products">
+                    <div class="row justify-content-center">
+                        <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
+                            <h1>
+                                lorem2
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="tab-pane p-0 fade" id="top-decor-tab" role="tabpanel" aria-labelledby="top-decor-link">
+            <div class="products">
+                <div class="row justify-content-center">
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
+                        <h1>lorem3</h1>
+                    </div>
+                </div>
+                <div class="tab-pane p-0 fade" id="top-light-tab" role="tabpanel" aria-labelledby="top-light-link">
+                    <div class="products">
+                        <div class="row justify-content-center">
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
+                                <h1>lorem4</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <div class="foreach-nomber">
         <hr>
         <div class="counter-container">
@@ -284,7 +291,30 @@
         </div>
         <hr>
     </div>
+    <div class="about-us-two">
 
+        <div class="about-text-right-two">
+
+            <h4 style="font: bold; margin-bottom: 10px">درباره ما </h4>
+            <img class="about-us-img-one" src="../HCMS-assets/img/user-3b.jpg" alt="slam">
+        </div>
+
+        <div class="about-text-center-two">
+            <h4 style="font: bold; margin-bottom: 10px">درباره ما </h4>
+            <img class="about-us-img-one" src="../HCMS-assets/img/user-5b.jpg" alt="slam">
+        </div>
+        <div class="about-text-left-two">
+            <h1>درباره ما </h1>
+            <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
+                از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+            </p>
+            <a href="#" class="about-link">
+                slam
+            </a>
+        </div>
+        <hr>
+    </div>
     <div class="contain">
 
         <div class="wrapper">
@@ -311,10 +341,9 @@
 
                     </p>
 
-
-
-                    <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button thar-three">Register</a> </div>
+                    <button class="slide_from_right">ارسال پیام</button>
                 </form>
+
             </div>
 
             <div class="contacts contact-wrapper">
@@ -325,14 +354,15 @@
                     <li class="email-info">ادرس:......................................05, Martin Street </li>
                     <li class="email-info">ایمیل:......................................mohammad.khajeloo.37@gmail.com </li>
 
-
                 </ul>
             </div>
         </div>
+
     </div>
 
-    <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button thar-three">Register</a>
-    </div>
+
+
+
 
     <div class="footer-links">
         <div class="a-links">
