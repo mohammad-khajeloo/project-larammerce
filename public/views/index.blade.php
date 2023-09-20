@@ -157,11 +157,16 @@
     <section class="container-two">
         <div class="container-two">
             <div class="heading heading-center mb-3">
+                <br>
+                <br>
+                <br>
                 <h2 class="title-container">نمونه کار ها</h2>
                 <hr class="mini-hr">
                 <p class="title-p-container">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, consectetur cumque dolorum, eius
-</p>
+                    </p>
+                <br>
+                <br>
                 <ul class="nav nav-pills nav-border-anim justify-content-center" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" id="top-all-link" data-toggle="tab" href="#top-all-tab"
@@ -178,50 +183,171 @@
                            role="tab" aria-controls="top-decor-tab" aria-selected="false">شهرها
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="top-light-link" data-toggle="tab" href="#top-light-tab"
-                           role="tab" aria-controls="top-light-tab" aria-selected="false">tab4
-                        </a>
-                    </li>
+
                 </ul>
             </div>
         </div>
         <div class="tab-content">
             <div class="tab-pane p-0 fade show active" id="top-all-tab" role="tabpanel" aria-labelledby="top-all-link">
-                <div class="products">
-                    <div class="row justify-content-center">
-                        <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
-                            <h1>lorem1</h1>
+                <div class="tab-content-image">
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content-image">
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content-image">
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="tab-pane p-0 fade" id="top-fur-tab" role="tabpanel" aria-labelledby="top-fur-link">
-                <div class="products">
-                    <div class="row justify-content-center">
-                        <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
-                            <h1>
-                                lorem2
-                            </h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="tab-pane p-0 fade" id="top-decor-tab" role="tabpanel" aria-labelledby="top-decor-link">
-            <div class="products">
-                <div class="row justify-content-center">
-                    <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
-                        <h1>lorem3</h1>
+            <div class="tab-pane p-0 fade" id="top-fur-tab" role="tabpanel" aria-labelledby="top-fur-link">
+                <div class="tab-content-image">
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
                     </div>
                 </div>
-                <div class="tab-pane p-0 fade" id="top-light-tab" role="tabpanel" aria-labelledby="top-light-link">
-                    <div class="products">
-                        <div class="row justify-content-center">
-                            <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
-                                <h1>lorem4</h1>
-                            </div>
+                <div class="tab-content-image">
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane p-0 fade" id="top-decor-tab" role="tabpanel" aria-labelledby="top-decor-link">
+                <div class="tab-content-image">
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
                         </div>
                     </div>
                 </div>

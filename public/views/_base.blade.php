@@ -60,7 +60,7 @@
 
 @include('_underscore_templates')
 @include('_modals')
-
+<div class="preloader"></div>
 <div class="hidden-content" style="display: none;">
     <div class="error-messages">
         @if(isset($errors))

@@ -950,7 +950,6 @@ button.slide_from_right::after {
   width: 90px;
   margin-left: auto;
   margin-right: auto;
-
   background-color: black;
 }
 .title-p-container{
@@ -958,4 +957,28 @@ button.slide_from_right::after {
   width: 450px;
   margin-right: auto;
   margin-left: auto;
+}
+.tab-content-image{
+  margin-right: 145px;
+  margin-left: 40px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.img-content{
+  display: inline-block;
+  margin-right: 30px;
+  margin-left: 30px;
+  width: 225px;
+  height: 170px;
+}
+.container-tab-content{
+  display: inline-block;
+  margin-top: 40px;
+}
+.container-text{
+  display: inline-block;
+  position: absolute;
+  margin-top: 190px;
+  margin-right: -160px;
 }
