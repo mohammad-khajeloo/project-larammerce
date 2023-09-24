@@ -80,10 +80,21 @@
                 <label for="i3" class="dots" id="dot3"><i  class='fas'>&#xf105;</i></label>
 
             </div>
-
         </div>
-
     </main>
+    <div class="share-button">
+
+        <a href="#" class="fa fa-facebook border-share"></a>
+        <a href="#" class="fa fa-twitter border-share"></a>
+        <a href="#" class="fa fa-instagram border-share"></a>
+        <a href="#" class="fa fa-linkedin border-share"></a>
+        <p class="share-line">______</p>
+        <p style="display:inline-block; margin-right: 60px ">اشتراک گذاری</p>
+    </div>
+
+    <div class="h1-right">
+        <h1>درباره ما </h1>
+    </div>
     <section class="text-collapsible">
         <ul class="m-d expand-list">
             <li data-md-content="200">
@@ -111,7 +122,9 @@
                 <label name="tab" for="tab1" tabindex="-1" class="tab_lab" role="tab">مشاهده همه</label>
             </li>
         </ul>
+
     </section>
+
 </body>
 
 <body class="body-two">
@@ -128,7 +141,93 @@
     </section>
 
 
+    <section class="container-one">
+        <div class="container-one">
+            <div class="heading heading-center mb-3">
+                <br>
+                <br>
+                <br>
+                <h2 class="title-container">نمونه کار ها 1</h2>
+                <hr class="mini-hr">
+                <p class="title-p-container">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, consectetur cumque dolorum, eius
+                </p>
+                <br>
+                <br>
+                <ul class="nav nav-pills nav-border-anim justify-content-center" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="top-all-link" data-toggle="tab" href="#top-all-tab"
+                           role="tab" aria-controls="top-all-tab" aria-selected="true">همه
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="top-fur-link" data-toggle="tab" href="#top-fur-tab"
+                           role="tab" aria-controls="top-fur-tab" aria-selected="false">هنر ها
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="top-decor-link" data-toggle="tab" href="#top-decor-tab"
+                           role="tab" aria-controls="top-decor-tab" aria-selected="false">شهرها
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="tab-content">
+            <div class="tab-pane p-0 fade show active" id="top-all-tab" role="tabpanel" aria-labelledby="top-all-link">
+                <div class="tab-content-image">
+                    <div class="container-tab-content-one">
 
+                        <div class="container-text-one">
+                            <i class="fa fa-apple"></i>
+                            <h1>لورم ایپسوم</h1>
+                            <br>
+                            <p class="container-text-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <a href="#" class="about-link">
+                                slam
+                            </a>
+                            <br>
+                            <br>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane p-0 fade" id="top-fur-tab" role="tabpanel" aria-labelledby="top-fur-link">
+                <div class="tab-content-image">
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tab-pane p-0 fade" id="top-decor-tab" role="tabpanel" aria-labelledby="top-decor-link">
+                <div class="tab-content-image">
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>سلام</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </section>
 
 
     <section class="working-area" style="background-image: url(/../HCMS-assets/img/working-bg.jpg);">
@@ -160,7 +259,7 @@
                 <br>
                 <br>
                 <br>
-                <h2 class="title-container">نمونه کار ها</h2>
+                <h2 class="title-container">نمونه کار ها 2</h2>
                 <hr class="mini-hr">
                 <p class="title-p-container">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, consectetur cumque dolorum, eius
@@ -183,7 +282,6 @@
                            role="tab" aria-controls="top-decor-tab" aria-selected="false">شهرها
                         </a>
                     </li>
-
                 </ul>
             </div>
         </div>
@@ -193,51 +291,29 @@
                     <div class="container-tab-content">
                         <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
                         <div class="container-text">
-                            <h4>سلام</h4>
+                            <h4>لورم ایپسوم</h4>
+                            <p class="container-text-p">لورم ایپسوم</p>
                         </div>
                     </div>
                     <div class="container-tab-content">
                         <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
                         <div class="container-text">
-                            <h4>سلام</h4>
+                            <h4>لورم ایپسوم</h4>
+                            <p class="container-text-p">لورم ایپسوم</p>
                         </div>
                     </div>
                     <div class="container-tab-content">
                         <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
                         <div class="container-text">
-                            <h4>سلام</h4>
+                            <h4>لورم ایپسوم</h4>
+                            <p class="container-text-p">لورم ایپسوم</p>
                         </div>
                     </div>
                     <div class="container-tab-content">
                         <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
                         <div class="container-text">
-                            <h4>سلام</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-content-image">
-                    <div class="container-tab-content">
-                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
-                        <div class="container-text">
-                            <h4>سلام</h4>
-                        </div>
-                    </div>
-                    <div class="container-tab-content">
-                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
-                        <div class="container-text">
-                            <h4>سلام</h4>
-                        </div>
-                    </div>
-                    <div class="container-tab-content">
-                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
-                        <div class="container-text">
-                            <h4>سلام</h4>
-                        </div>
-                    </div>
-                    <div class="container-tab-content">
-                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
-                        <div class="container-text">
-                            <h4>سلام</h4>
+                            <h4>لورم ایپسوم</h4>
+                            <p class="container-text-p">لورم ایپسوم</p>
                         </div>
                     </div>
                 </div>
@@ -245,25 +321,59 @@
                     <div class="container-tab-content">
                         <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
                         <div class="container-text">
-                            <h4>سلام</h4>
+                            <h4>لورم ایپسوم</h4>
+                            <p class="container-text-p">لورم ایپسوم</p>
                         </div>
                     </div>
                     <div class="container-tab-content">
                         <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
                         <div class="container-text">
-                            <h4>سلام</h4>
+                            <h4>لورم ایپسوم</h4>
+                            <p class="container-text-p">لورم ایپسوم</p>
                         </div>
                     </div>
                     <div class="container-tab-content">
                         <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
                         <div class="container-text">
-                            <h4>سلام</h4>
+                            <h4>لورم ایپسوم</h4>
+                            <p class="container-text-p">لورم ایپسوم</p>
                         </div>
                     </div>
                     <div class="container-tab-content">
                         <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
                         <div class="container-text">
-                            <h4>سلام</h4>
+                            <h4>لورم ایپسوم</h4>
+                            <p class="container-text-p">لورم ایپسوم</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content-image">
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>لورم ایپسوم</h4>
+                            <p class="container-text-p">لورم ایپسوم</p>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>لورم ایپسوم</h4>
+                            <p class="container-text-p">لورم ایپسوم</p>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>لورم ایپسوم</h4>
+                            <p class="container-text-p">لورم ایپسوم</p>
+                        </div>
+                    </div>
+                    <div class="container-tab-content">
+                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
+                        <div class="container-text">
+                            <h4>لورم ایپسوم</h4>
+                            <p class="container-text-p">لورم ایپسوم</p>
                         </div>
                     </div>
                 </div>
@@ -353,37 +463,39 @@
                 </div>
             </div>
         </div>
+        <br>
+        <br>
     </section>
     <div class="foreach-nomber">
         <hr>
         <div class="counter-container">
             <div class="counter" data-target="12000"></div>
             <br>
-            <span>Instagram </span>
+            <span>لورم ایپسوم</span>
         </div>
         <hr class="rotate">
         <div class="counter-container">
             <div class="counter" data-target="5000"></div>
             <br>
-            <span>Instagram </span>
+            <span>لورم ایپسوم</span>
         </div>
         <hr class="rotate">
         <div class="counter-container">
             <div class="counter" data-target="7500"></div>
             <br>
-            <span>Instagram </span>
+            <span>لورم ایپسوم</span>
         </div>
         <hr class="rotate">
         <div class="counter-container">
             <div class="counter" data-target="7500"></div>
             <br>
-            <span>Instagram </span>
+            <span>لورم ایپسوم</span>
         </div>
         <hr class="rotate">
         <div class="counter-container">
             <div class="counter" data-target="7500"></div>
             <br>
-            <span>Instagram</span>
+            <span>لورم ایپسوم</span>
         </div>
 
         <hr>

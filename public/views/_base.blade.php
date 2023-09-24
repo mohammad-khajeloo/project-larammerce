@@ -81,6 +81,12 @@
         </ul>
     </div>
 </div>
+<a href="#" class="btn back-to-top @yield('back_to_top_class')" role="button" title="بالا"
+   data-toggle="tooltip" style="display:none">
+    <h6>بالا</h6>
+   |
+
+</a>
 
 <script data-main="/HCMS-assets/js/all-22-06-28" src="/HCMS-assets/js/lib/require.js"></script>
 
