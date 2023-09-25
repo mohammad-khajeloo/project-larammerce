@@ -907,6 +907,7 @@ button {
   background: #000000;
   color: #fff;
   border: 0.15rem solid #000000;
+  width: 150px;
   padding: 10px 10px;
   margin: 5px;
   position: relative;
@@ -983,7 +984,9 @@ button.slide_from_right::after {
 .container-tab-content-one{
   display: inline-block;
   margin-top: 10px;
+  padding: 15px;
 }
+
 .container-text{
   display: inline-block;
   position: absolute;
@@ -994,10 +997,35 @@ button.slide_from_right::after {
   display: inline-block;
   border-style: solid;
   border-width: 1px;
-  border-color: #929292;
-padding: 10px;
-  max-width: 300px;
+  border-color: #dcdcdc;
+padding: 50px 20px;
+  max-width: 330px;
+  transition: border-color 1.3s ease;
 }
+.container-text-one:hover{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #101010;
+  transition: border-color 1.3s ease;
+}
+.zoom-icon {
+  width: 250px;
+  height: 250px;
+  font-size: 52px;
+color: black;
+  position: absolute;
+  margin-top: -50px;
+margin-right: -100px;
+}
+
+.zoom-icon:hover {
+  color: black;
+  transform: scale(1.2);
+  font-size: 52px;
+
+}
+
+
 .container-text-p{
   color: #929292;
 }

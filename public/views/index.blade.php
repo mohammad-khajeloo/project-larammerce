@@ -82,6 +82,7 @@
             </div>
         </div>
     </main>
+
     <div class="share-button">
 
         <a href="#" class="fa fa-facebook border-share"></a>
@@ -177,19 +178,60 @@
             <div class="tab-pane p-0 fade show active" id="top-all-tab" role="tabpanel" aria-labelledby="top-all-link">
                 <div class="tab-content-image">
                     <div class="container-tab-content-one">
-
                         <div class="container-text-one">
-                            <i class="fa fa-apple"></i>
+                            <i class="fa fa-apple zoom-icon"></i>
+                            <br>
                             <h1>لورم ایپسوم</h1>
                             <br>
                             <p class="container-text-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             <a href="#" class="about-link">
-                                slam
+                                لورم
                             </a>
                             <br>
                             <br>
                         </div>
-
+                    </div>
+                    <div class="container-tab-content-one">
+                        <div class="container-text-one">
+                            <i class="fa fa-apple zoom-icon"></i>
+                            <br>
+                            <h1>لورم ایپسوم</h1>
+                            <br>
+                            <p class="container-text-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <a href="#" class="about-link">
+                                لورم
+                            </a>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="container-tab-content-one">
+                        <div class="container-text-one">
+                            <i class="fa fa-apple zoom-icon"></i>
+                            <br>
+                            <h1>لورم ایپسوم</h1>
+                            <br>
+                            <p class="container-text-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <a href="#" class="about-link">
+                                لورم
+                            </a>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="container-tab-content-one">
+                        <div class="container-text-one">
+                            <i class="fa fa-apple zoom-icon"></i>
+                            <br>
+                            <h1>لورم ایپسوم</h1>
+                            <br>
+                            <p class="container-text-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <a href="#" class="about-link">
+                                لورم
+                            </a>
+                            <br>
+                            <br>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -266,27 +308,27 @@
                     </p>
                 <br>
                 <br>
-                <ul class="nav nav-pills nav-border-anim justify-content-center" role="tablist">
+                <ul class="nav nav-pills nav-border-anim justify-content-center" role="tablist-two">
                     <li class="nav-item">
-                        <a class="nav-link active" id="top-all-link" data-toggle="tab" href="#top-all-tab"
-                           role="tab" aria-controls="top-all-tab" aria-selected="true">همه
+                        <a class="nav-link active" id="top-all-link-two" data-toggle="tab" href="#top-all-tab-two"
+                           role="tab" aria-controls="top-all-tab-two" aria-selected="true">همه
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="top-fur-link" data-toggle="tab" href="#top-fur-tab"
-                           role="tab" aria-controls="top-fur-tab" aria-selected="false">کسب کار
+                        <a class="nav-link" id="top-fur-link-two" data-toggle="tab" href="#top-fur-tab-two"
+                           role="tab" aria-controls="top-fur-tab-two" aria-selected="false">کسب کار
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="top-decor-link" data-toggle="tab" href="#top-decor-tab"
-                           role="tab" aria-controls="top-decor-tab" aria-selected="false">شهرها
+                        <a class="nav-link" id="top-decor-link-two" data-toggle="tab" href="#top-decor-tab-two"
+                           role="tab" aria-controls="top-decor-tab-two" aria-selected="false">شهرها
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="tab-content">
-            <div class="tab-pane p-0 fade show active" id="top-all-tab" role="tabpanel" aria-labelledby="top-all-link">
+            <div class="tab-pane p-0 fade show active" id="top-all-tab-two" role="tabpanel" aria-labelledby="top-all-link-two">
                 <div class="tab-content-image">
                     <div class="container-tab-content">
                         <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
@@ -295,6 +337,7 @@
                             <p class="container-text-p">لورم ایپسوم</p>
                         </div>
                     </div>
+
                     <div class="container-tab-content">
                         <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
                         <div class="container-text">
@@ -318,6 +361,7 @@
                     </div>
                 </div>
                 <div class="tab-content-image">
+
                     <div class="container-tab-content">
                         <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
                         <div class="container-text">
@@ -379,33 +423,8 @@
                 </div>
             </div>
 
-            <div class="tab-pane p-0 fade" id="top-fur-tab" role="tabpanel" aria-labelledby="top-fur-link">
-                <div class="tab-content-image">
-                    <div class="container-tab-content">
-                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
-                        <div class="container-text">
-                            <h4>سلام</h4>
-                        </div>
-                    </div>
-                    <div class="container-tab-content">
-                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
-                        <div class="container-text">
-                            <h4>سلام</h4>
-                        </div>
-                    </div>
-                    <div class="container-tab-content">
-                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
-                        <div class="container-text">
-                            <h4>سلام</h4>
-                        </div>
-                    </div>
-                    <div class="container-tab-content">
-                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
-                        <div class="container-text">
-                            <h4>سلام</h4>
-                        </div>
-                    </div>
-                </div>
+            <div class="tab-pane p-0 fade" id="top-fur-tab-two" role="tabpanel" aria-labelledby="top-fur-link-two">
+
                 <div class="tab-content-image">
                     <div class="container-tab-content">
                         <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
@@ -434,14 +453,9 @@
                 </div>
             </div>
 
-            <div class="tab-pane p-0 fade" id="top-decor-tab" role="tabpanel" aria-labelledby="top-decor-link">
+            <div class="tab-pane p-0 fade" id="top-decor-tab-two" role="tabpanel" aria-labelledby="top-decor-link-two">
                 <div class="tab-content-image">
-                    <div class="container-tab-content">
-                        <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
-                        <div class="container-text">
-                            <h4>سلام</h4>
-                        </div>
-                    </div>
+
                     <div class="container-tab-content">
                         <img src="../HCMS-assets/img/3533276.jpg" alt="" class="img-content">
                         <div class="container-text">
